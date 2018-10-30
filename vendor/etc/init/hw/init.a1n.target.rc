@@ -1,0 +1,49 @@
+import /vendor/etc/init/hw/init.nb1.smartamp.rc
+import /vendor/etc/init/hw/init.fih.fqcaudio.rc
+import /vendor/etc/init/hw/init.nb1.wbg.rc
+import /vendor/etc/init/hw/init.nb1.led.rc
+import /vendor/etc/init/hw/init.nb1.touch.rc
+import /vendor/etc/init/hw/init.qcom.ramdump.rc
+import /vendor/etc/init/hw/init.nb1.sd.rc
+import /vendor/etc/init/hw/init.nb1.lcm.rc
+import /vendor/etc/init/hw/init.a1n.camera.rc
+import /vendor/etc/init/hw/init.qcom.diagtest.rc
+import /vendor/etc/init/hw/init.a1n.battery.rc
+import /vendor/etc/init/hw/init.a1n.poweroff_charging.rc
+import /vendor/etc/init/hw/init.a1n.fingerprint.rc
+import /vendor/etc/init/hw/init.fih.elabel.rc
+import /vendor/etc/init/hw/init.a1n.dbg.rc
+
+on early-boot
+    rm /persist/bluetooth/.bt_nv.bin
+
+service wbgtesttool_wifi /system/vendor/bin/sh /system/etc/wbg_wifi.sh
+    user root
+    disabled
+    oneshot
+
+service wifisar /system/vendor/bin/sh /system/vendor/bin/wifisar.sh
+    user root
+    disabled
+    oneshot
+
+on property:persist.sys.wbg.wifi=start
+    start wbgtesttool_wifi
+
+on property:sys.wifi.sar=1
+    start wifisar
+
+service dhcpcd_eth0 /system/bin/dhcpcd -ABDKL
+class main
+disabled
+oneshot
+
+#create the necessary /data/preloads directory for In-Factory APK Caching
+on post-fs-data
+    mkdir /data/preloads 0775 system system
+    mkdir /data/preloads/media 0775 system system
+    mkdir /data/preloads/demo 0775 system system
+    restorecon_recursive /data/preloads
+    mkdir /data/preloads/apps-postinstall 0775 system system
+    restorecon_recursive /data/preloads/apps-postinstall
+

@@ -1,0 +1,15 @@
+on property:persist.sys.PreventPowerkey=on
+    write /sys/class/leds/button-backlight/brightness 25
+
+on property:persist.sys.PreventPowerkey=off
+    write /sys/class/leds/button-backlight/brightness 0
+    
+on post-fs-data
+    start preload_app
+
+service preload_app /system/bin/sh /system/etc/removable-preload-app.sh
+    disabled
+    class core
+    user root
+    group root
+    oneshot

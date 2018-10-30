@@ -1,0 +1,17 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Apr 19 23:37:41 CST 2018
+ro.bootimage.build.date.utc=1524152261
+ro.bootimage.build.fingerprint=Nokia/Avenger_00WW/A1N_sprout:8.1.0/OPR1.170623.026/00WW_3_10D:user/release-keys
+persist.sys.usb.config=none
+
+

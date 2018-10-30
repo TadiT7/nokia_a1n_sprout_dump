@@ -1,0 +1,16 @@
+<HWMapTable>
+    <CommonVendor>
+        <device>A1N_sprout</device>
+        <name>Avenger_00WW</name>
+        <manufacturer>"HMD Global"</manufacturer>
+        <model>"Nokia 8 Sirocco"</model>
+        <brand></brand>
+    </CommonVendor>
+    <ConmmonVendor>
+        <device>A1N_sprout</device>
+        <name>Avenger_00WW</name>
+        <manufacturer>"HMD Global"</manufacturer>
+        <model>"Nokia 8 Sirocco"</model>
+        <brand></brand>
+    </ConmmonVendor>
+</HWMapTable>

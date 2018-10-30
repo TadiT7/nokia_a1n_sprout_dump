@@ -1,0 +1,130 @@
+<HWMapTable>
+    <HWModel HWID="A1N" SKUID="600CN" PROJECT="A1N">
+        <ro.product.name>Avenger_00CN</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd</ro.com.google.clientidbase>
+        <ro.product.model.display>TA-1005</ro.product.model.display>
+    </HWModel>
+	
+	<HWModel HWID="A1N" SKUID="6000C" PROJECT="A1N">
+        <ro.product.name>Avenger_000C</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd-rev2</ro.com.google.clientidbase>
+        <ro.product.model.display>TA-1005</ro.product.model.display>
+    </HWModel>
+	
+	<HWModel HWID="A1N" SKUID="6000A" PROJECT="A1N">
+        <ro.product.name>Avenger_000A</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd</ro.com.google.clientidbase>
+        <persist.sys.stb.showdialog>false</persist.sys.stb.showdialog>
+        <ro.product.model.display>TA-1005</ro.product.model.display>
+    </HWModel>
+	
+	<HWModel HWID="A1N" SKUID="600WW" PROJECT="A1N">
+        <ro.product.name>Avenger_00WW</ro.product.name>
+        <ro.product.device>A1N_sprout</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd-rev2</ro.com.google.clientidbase>
+	    <ro.com.android.prov_mobiledata>false</ro.com.android.prov_mobiledata>
+	    <ro.product.model.display>TA-1005</ro.product.model.display>
+    </HWModel>
+
+	<HWModel HWID="A1N" SKUID="600RU" PROJECT="A1N">
+        <ro.product.name>Avenger_00RU</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd-rev2</ro.com.google.clientidbase>
+	    <ro.com.android.prov_mobiledata>false</ro.com.android.prov_mobiledata>
+	    <ro.product.model.display>TA-1005</ro.product.model.display>
+		<ro.product.locale>ru-RU</ro.product.locale>
+    </HWModel>
+
+    <HWModel HWID="A1C" SKUID="600CN" PROJECT="A1N">
+        <ro.product.name>Avenger_00CN</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd</ro.com.google.clientidbase>
+        <ro.product.model.display>TA-1042</ro.product.model.display>
+    </HWModel>
+	
+	<HWModel HWID="A1C" SKUID="6000C" PROJECT="A1N">
+        <ro.product.name>Avenger_000C</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd-rev2</ro.com.google.clientidbase>
+        <ro.product.model.display>TA-1042</ro.product.model.display>
+    </HWModel>
+	
+	<HWModel HWID="A1C" SKUID="6000A" PROJECT="A1N">
+        <ro.product.name>Avenger_000A</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd</ro.com.google.clientidbase>
+        <persist.sys.stb.showdialog>false</persist.sys.stb.showdialog>
+        <ro.product.model.display>TA-1042</ro.product.model.display>
+    </HWModel>
+	
+	<HWModel HWID="A1C" SKUID="600WW" PROJECT="A1N">
+        <ro.product.name>Avenger_00WW</ro.product.name>
+        <ro.product.device>A1N_sprout</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd-rev2</ro.com.google.clientidbase>
+	    <ro.com.android.prov_mobiledata>false</ro.com.android.prov_mobiledata>
+	    <ro.product.model.display>TA-1042</ro.product.model.display>
+    </HWModel>
+
+	<HWModel HWID="A1C" SKUID="600RU" PROJECT="A1N">
+        <ro.product.name>Avenger_00RU</ro.product.name>
+        <ro.product.device>A1N</ro.product.device>
+        <ro.product.model>Nokia 8 Sirocco</ro.product.model>
+        <ro.product.brand>Nokia</ro.product.brand>
+        <ro.product.board>MSM8998</ro.product.board>
+        <ro.product.manufacturer>HMD Global</ro.product.manufacturer>
+        <ro.product.nickname>Nokia 8 Sirocco</ro.product.nickname>
+        <ro.com.google.clientidbase>android-hmd-rev2</ro.com.google.clientidbase>
+	    <ro.com.android.prov_mobiledata>false</ro.com.android.prov_mobiledata>
+	    <ro.product.model.display>TA-1042</ro.product.model.display>
+		<ro.product.locale>ru-RU</ro.product.locale>
+    </HWModel>
+
+</HWMapTable>

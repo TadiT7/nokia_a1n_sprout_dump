@@ -1,0 +1,15 @@
+ro.product.model.num=00WW
+ro.product.name=Avenger_00RU
+ro.product.device=A1N_sprout
+ro.product.model=Nokia 8 Sirocco
+ro.product.brand=Nokia
+ro.product.board=MSM8998
+ro.product.manufacturer=HMD Global
+ro.product.nickname=Nokia 8 Sirocco
+ro.wifi.channels=11
+ro.telephony.default_network=22
+ro.config.dbgcfgtool_config=2
+ro.com.google.clientid=android-hmd-rev2
+ro.product.locale=ru-RU
+ro.com.android.mobiledata=true
+ro.com.android.dataroaming=false
